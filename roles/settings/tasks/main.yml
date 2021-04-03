@@ -15,6 +15,6 @@
 - import_tasks: finder.yml
   tags: [settings-finder]
 
-- import_tasks: trackpad_tap_to_click.yml
+- import_tasks: trackpad.yml
   when: trackpad_tap_to_click != None
   tags: [trackpad]
